@@ -1,0 +1,8 @@
+config/google_token.json
+config/outlook_token.json
+config/config.toml
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+*.egg-info/

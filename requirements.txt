@@ -1,0 +1,8 @@
+# Runtime deps
+icalendar>=5.0
+google-auth>=2.0
+google-auth-oauthlib>=1.0
+google-api-python-client>=2.0
+msal>=1.24
+requests>=2.31
+tomli>=2.0; python_version < "3.11"

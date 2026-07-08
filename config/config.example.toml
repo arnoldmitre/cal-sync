@@ -1,0 +1,26 @@
+[sync]
+# Interval in minutes between syncs
+interval_minutes = 15
+
+# Absolute path to the SMB mount point or any local directory
+output_path = "/mnt/smb/calendars/all.ics"
+
+[google]
+# Path to the OAuth2 credentials JSON downloaded from Google Cloud Console
+credentials_file = "config/google_credentials.json"
+# Token cache file (created automatically after first auth)
+token_file = "config/google_token.json"
+# Which calendars to include — use "primary" or a calendar ID
+# Leave empty to include all calendars
+calendar_ids = ["primary"]
+
+[outlook]
+# Azure AD app registration values
+client_id = "YOUR_AZURE_APP_CLIENT_ID"
+client_secret = "YOUR_AZURE_APP_CLIENT_SECRET"
+tenant_id = "YOUR_AZURE_TENANT_ID"  # or "common" for multi-tenant
+# Token cache file (created automatically after first auth)
+token_file = "config/outlook_token.json"
+# Which calendars to include — use "primary" or a calendar ID
+# Leave empty to include all calendars
+calendar_ids = []
