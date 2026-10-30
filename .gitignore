@@ -1,0 +1,27 @@
+# Python & Virtual Environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native binaries & build artifacts
+fetch_events
+*.o
+*.dSYM/
+
+# Sensitive secrets & OAuth credentials
+credentials.json
+token.json
+
+# Local configurations & local logs
+config.json
+com.user.calendarsync.plist
+*.log
+sync.log
+sync_err.log
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride

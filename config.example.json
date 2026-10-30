@@ -1,0 +1,25 @@
+{
+  "source_calendar_name": "Calendar",
+  "source_calendar_id": "",
+  "destination_calendar_name": "Exchange (Work)",
+  "sync_days_past": 14,
+  "sync_days_future": 90,
+  "delete_from_google_if_removed_from_exchange": true,
+  "resync_if_deleted_on_destination": true,
+  "sanitization": {
+    "enabled": true,
+    "mode": "hybrid",
+    "mask_order_numbers": true,
+    "clean_location": true,
+    "strip_internal_urls": true,
+    "strip_passcodes": true,
+    "strip_boilerplate": true,
+    "max_description_length": 500
+  },
+  "multi_day_handling": {
+    "enabled": true,
+    "action": "crop_to_first_day",
+    "threshold_days": 1.0,
+    "skip_if_longer_than_days": 30
+  }
+}
